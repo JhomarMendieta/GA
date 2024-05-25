@@ -1,4 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root{
+    /* Imgenes */
+    --cpu: url(../img/RutaEducativaCPU.png);
+    --cel: url(../img/RutaEducativaCEL.png);
+
+    /* Fonts */
+    --kanit: "Kanit", sans-serif;
+}
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: var(--kanit);
+}
+body{
+    background-image: var(--cpu);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sombra{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #2b203ad2;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+
+/* Codigo del para el inicio */
+.index{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 20px;
+}
+.index h2{
+    font-size: 7rem;
+}
+.index p{
+    font-size: 1.8rem;
+}
+.index a{
+    background-color: #20172E;
+    padding: 7px 30px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+}
+.index a:hover{
+    box-shadow: 1px 0 10px #20172E;
+    text-shadow: 0 0 2px #fff;
+}
+
+/* Codigo para el form */
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_formulario{
+    background-color: #20172E;
+    width: 1200px;
+    height: 600px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contenedor_formulario .formulario{
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.contenedor_formulario .titulo{
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+}
+.contenedor_formulario .input{
+    width: 100%;
+}
+.contenedor_formulario .input input{
+    width: 100%;
+    height: 40px;
+    font-size: 1.1rem;
+    border: 3px solid #616161;
+    border-radius: 7px;
+    padding-left: 5px;
+    outline: none;
+}
+.contenedor_formulario .cuenta{
+    color: #fff;
+}
+.contenedor_formulario .cuenta a{
+    position: relative;
+    text-decoration: none;
+    color: #774dbb;
+}
+.contenedor_formulario .cuenta a:hover{
+    text-shadow: 0 0 1px #774dbb;
+}
+.contenedor_formulario .cuenta a::before{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #774dbb;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all .4s ease;
+}
+.contenedor_formulario .cuenta a:hover::before{
+    transform: scaleX(1);
+}
+.contenedor_formulario input[type="submit"]{
+    background-color: #774dbb;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    padding: 5px 20px;
+}
+.contenedor_formulario input[type="submit"]:hover{
+    box-shadow: 0 1px 5px #774dbb;
+}
+.contenedor_formulario .imagen_form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.contenedor_formulario .imagen_form img{
+    width: 100%;
 }
