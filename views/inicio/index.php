@@ -3,17 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/menu.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="sombra"></div>
-    <main class="index">
-        <h2>Bienvenido</h2>
-        <p>Juntos pensamos en el futuro de tus hijos</p>
-        <a href="sign/signin.html">Ingresar</a>
-    </main>
-
+    <?php
+        include "../menu.html";
+    ?>
 
 
     <script src="https://kit.fontawesome.com/d5f1649c82.js" crossorigin="anonymous"></script>

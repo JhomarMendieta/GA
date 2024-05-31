@@ -9,6 +9,9 @@
 
     /* Fonts */
     --kanit: "Kanit", sans-serif;
+
+    /* Colores */
+    --morado: #20172E;
 }
 *{
     margin: 0;

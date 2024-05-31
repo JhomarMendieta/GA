@@ -8,9 +8,12 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="sombra"></div>
-    <header class="header">
+    <?php
+        include "../menu.html";
+    ?>
 
-    </header>
+
+
+    <script src="https://kit.fontawesome.com/d5f1649c82.js" crossorigin="anonymous"></script>
 </body>
 </html>

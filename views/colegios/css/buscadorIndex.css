@@ -1,0 +1,17 @@
+.contenedor{
+    width: 100%;
+    max-width: 1500px;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.buscador__colegios{
+    grid-area: busq;
+    background-color: var(--morado);
+    width: 400px;
+    height: 550px;
+    border-radius: 15px;
+    padding: 20px;
+}
