@@ -11,6 +11,8 @@
 
     /* Fonts */
     --kanit: "Kanit", sans-serif;
+    --gothic: "Pathway Gothic One", sans-serif;
+    
 
     /* Colores */
     --morado: #20172E;
@@ -207,3 +209,4 @@ body{
     width: 140px;
     height: 3px;
 }
+

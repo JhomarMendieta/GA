@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+
+/* Codigo para el form */
+.contenedor {
+    width: 100%;
+    height: 100vh; /* Ajuste para cubrir toda la altura de la vista */
+    display: flex;
+    justify-content: flex-end; /* Alinea contenido al final (derecha) */
+    align-items: center;
+
+}
+
+.texto-contacto {
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    color: #fff;
+    font-size: 2rem;
+    
+}
+
+.contenedor_formulario {
+    background-color: #20172E;
+    width: 50%; /* Ocupa la mitad derecha */
+    height: auto;
+    padding: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_formulario .titulo {
+    width: 100%;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fff;
+    
+}
+
+
+.contenedor_formulario .input {
+    width: 100%;
+}
+
+.contenedor_formulario .input input,
+.contenedor_formulario .input textarea {
+    width: 100%;
+    font-size: 1.1rem;
+    border: 3px solid #616161;
+    border-radius: 7px;
+    padding: 5px;
+    outline: none;
+    resize: vertical; /* Permite que el usuario ajuste la altura */
+}
+
+.contenedor_formulario .input input[name="nombre"] {
+    height: 40px;
+}
+
+.contenedor_formulario .input textarea[name="mensaje"] {
+    height: 150px; /* Ajusta la altura según sea necesario */
+}
+
+.contenedor_formulario .input input[name="nombre"],
+.contenedor_formulario .input textarea[name="mensaje"] {
+    width: 300px; 
+}
+
+.contenedor_formulario input[type="submit"] {
+    background-color: #774dbb;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.0rem;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block; /* Para hacer que el botón sea un bloque */
+    margin: 0 auto; /* Para centrar horizontalmente */
+}
+
+.contenedor_formulario input[type="submit"]:hover {
+    box-shadow: 0 1px 5px #774dbb;
+    transform: translateY(-2px); /* Eleva el botón ligeramente al pasar el mouse */
+}
