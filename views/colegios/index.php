@@ -30,30 +30,30 @@
             </div>
         </aside>
         <main class="escuelas">
-            <div class="contenedor__escuela">
+            <a href="#" class="contenedor__escuela">
                 <picture class="escuela__img">
                     <img src="" alt="">
                 </picture>
                 <p class="nombre__escuela"></p>
                 <p class="direccion__escuela"></p>
                 <div class="puntuacion__escuela"></div>
-            </div>
-            <div class="contenedor__escuela">
+            </a>
+            <a href="#" class="contenedor__escuela">
                 <picture class="escuela__img">
                     <img src="" alt="">
                 </picture>
                 <p class="nombre__escuela"></p>
                 <p class="direccion__escuela"></p>
                 <div class="puntuacion__escuela"></div>
-            </div>
-            <div class="contenedor__escuela">
+            </a>
+            <a href="#" class="contenedor__escuela">
                 <picture class="escuela__img">
                     <img src="" alt="">
                 </picture>
                 <p class="nombre__escuela"></p>
                 <p class="direccion__escuela"></p>
                 <div class="puntuacion__escuela"></div>
-            </div>
+            </a>
         </main>
     </div>
 
