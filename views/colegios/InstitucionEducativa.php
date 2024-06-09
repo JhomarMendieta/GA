@@ -6,6 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    
+<?php
+        include "../menu.html";
+    ?>
+    <?php
+    include "../footer.html"
+    ?>
 </body>
 </html>

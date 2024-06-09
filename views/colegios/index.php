@@ -60,5 +60,8 @@
 
 
     <script src="https://kit.fontawesome.com/d5f1649c82.js" crossorigin="anonymous"></script>
+    <?php
+    include "../footer.html"
+    ?>
 </body>
 </html>
