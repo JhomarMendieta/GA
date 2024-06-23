@@ -17,11 +17,16 @@
 .header .navBar .contenedor__logo{
     width: fit-content;
     height: 100%;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.header .navBar .contenedor__logo img{
-    height: 70px;
+.header .navBar .contenedor__logo img:first-child{
+    height: 60px;
+    display: none;
+}
+.header .navBar .contenedor__logo img:last-child{
+    height: 60px;
 }
 .header .navBar .nav{
     display: flex;

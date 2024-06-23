@@ -1,7 +1,7 @@
 .escuelas{
     grid-area: cole;
     width: calc(100% - 450px);
-    height: 400px;
+    height: fit-content;
     display: grid;
     gap: 10px;
 }

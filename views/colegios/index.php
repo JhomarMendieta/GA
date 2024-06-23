@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon de la web -->
+    <link rel="shortcut icon" href="../../img/icon/logo_icon.png" type="image/x-icon">
+    <!-- Links para los estilos css de la página -->
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="css/buscadorIndex.css">

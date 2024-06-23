@@ -6,9 +6,13 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/menu.css">
     <title>Contacto</title>
 </head>
 <body>
+    <?php
+        include("../menu.html");
+    ?>
     <div class="sombra"></div>
     <section class="contenedor">
         <div class="texto-contacto">
@@ -30,7 +34,7 @@
         </div>
     </section>
     <?php
-    include "../footer.html"
+    include "../footer.html";
     ?>
 </body>
 </html>
