@@ -1,0 +1,15 @@
+/* "root" sirve para generar variables de manera global, variables que los otros archivos css pueden recibir */
+:root {
+    /* Fuentes de letra*/
+    --FuentePredeterminada: arial;
+
+    /* Colores de la pagina*/
+    --ColorDeFondo: #f8f8f8;
+    --ColorDeFuente: #000;
+
+    /* Tamaños de cajas de la página */
+    --contenedorMenu: 1200px;
+
+    /* Tamaños de fuente */
+    
+}
